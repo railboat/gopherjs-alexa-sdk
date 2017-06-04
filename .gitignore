@@ -1,0 +1,6 @@
+*~
+**/*.svg
+**/*.pdf
+*.tar.gz
+main
+blog/posts
