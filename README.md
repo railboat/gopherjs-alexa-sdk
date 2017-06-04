@@ -4,9 +4,10 @@ It's easy to write a javascript Lambda function to power an Alexa skill using
 the node library
 [alexa-sdk](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs).
 
-This library contains gopherjs bindings to alexa-sdk, so a developer can write a
-lambda function in Go, and then "compile" it with gopherjs, link it against
-alexa-sdk and have it run on AWS Lambda.
+This library contains [gopherjs](https://github.com/gopherjs/gopherjs) bindings
+to alexa-sdk, so a developer can write a lambda function in Go, and then
+"compile" it with gopherjs, link it against alexa-sdk and have it run on AWS
+Lambda.
 
 This library is only a temporary stopgap measure on the way to building
 full-featured Alexa Skills in Go that run on AWS Lambda. Once I've properly
